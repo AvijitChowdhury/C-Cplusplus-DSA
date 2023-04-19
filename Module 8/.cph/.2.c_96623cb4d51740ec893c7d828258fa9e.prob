@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"f:\\Phitron\\Module 8\\2.c","tests":[{"id":1681407296914,"input":"-5","output":"-5 -4 -3 -2 -1 0 1 "},{"id":1681407313452,"input":"5","output":"1 2 3 4 5"},{"id":1681407320732,"input":"0","output":"0 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Module 8\\2.c","group":"local","local":true}
