@@ -4,7 +4,10 @@
 #include<stdlib.h>
 #define int long long
 int main(){
-    int n=5;
+    int n;
+    printf("Give your pattern line number: ");
+    scanf("%lld",&n);
+    
     int s=n-1,k=1;
     for(int i=1;i<=(2*n)-1;i++){
         for(int j=s;j>=1;j--){
