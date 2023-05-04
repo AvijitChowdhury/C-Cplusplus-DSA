@@ -1,0 +1,1 @@
+{"name":"Local: 4","url":"f:\\Phitron\\Module16\\4.c","tests":[{"id":1683221278010,"input":"madam","output":"Palindrome"},{"id":1683221293753,"input":"abcd","output":"Not Palindrome"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Module16\\4.c","group":"local","local":true}
