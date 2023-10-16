@@ -20,9 +20,11 @@ void insert_at_tail(Node *head,int val){
     if( head->next==NULL){
         head->next = new Node(val);
     }
+    
 }
 void print_linked_list(Node *head){
     Node *temp = head;
+    
     while(temp!=NULL){
         cout<<temp->val<<" ";
         temp = temp->next;
