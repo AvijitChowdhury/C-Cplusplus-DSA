@@ -1,0 +1,1 @@
+{"name":"Local: PrintTree","url":"f:\\Phitron\\DSA\\Module20\\PrintTree.cpp","tests":[{"id":1719673370197,"input":"10 20 30 40 50 -1 60 -1 -1 -1 -1 -1 -1","output":"40 50 60 20 30 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DSA\\Module20\\PrintTree.cpp","group":"local","local":true}
