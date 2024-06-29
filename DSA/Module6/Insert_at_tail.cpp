@@ -36,3 +36,4 @@ int32_t main(){
     insert_at_tail(head,10);
     print_linked_list(head);
 return 0;}
+//tail node use korle complexity kom

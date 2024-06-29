@@ -1,0 +1,1 @@
+{"name":"Local: InputTree","url":"f:\\Phitron\\DSA\\Module17_ BinaryTree\\InputTree.cpp","tests":[{"id":1719590829479,"input":"10 20 30 40 50 -1 60 -1 -1 -1 -1 -1 -1","output":"210"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DSA\\Module17_ BinaryTree\\InputTree.cpp","group":"local","local":true}

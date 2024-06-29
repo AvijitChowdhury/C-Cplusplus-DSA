@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "f:\\Phitron\\DSA\\Module17_ BinaryTree",
+      "environment": [],
+      "program": "f:\\Phitron\\DSA\\Module17_ BinaryTree\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "K:\\minGW\\bin\\gdb.exe",
+      "externalConsole": false
+    }
+  ]
+}
