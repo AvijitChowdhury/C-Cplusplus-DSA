@@ -1,0 +1,1 @@
+{"name":"Local: priorityQueue","url":"f:\\Phitron\\DSA\\Module23_PriorityQUeue\\priorityQueue.cpp","tests":[{"id":1719767054911,"input":"0 5\n2\n0 8\n2\n0 10\n2\n0 15\n3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DSA\\Module23_PriorityQUeue\\priorityQueue.cpp","group":"local","local":true}
