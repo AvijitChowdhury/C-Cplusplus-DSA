@@ -1,0 +1,1 @@
+{"name":"Local: 5_BFS","url":"f:\\Phitron\\Algorithm\\Graph\\5_BFS.cpp","tests":[{"id":1720894545196,"input":"12\n11\n1 2\n1 3\n1 10\n2 4\n2 5\n3 9\n5 6\n5 7\n6 8\n10 11\n10 12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\Graph\\5_BFS.cpp","group":"local","local":true}
