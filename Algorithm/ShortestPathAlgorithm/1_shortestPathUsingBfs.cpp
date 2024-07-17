@@ -6,6 +6,7 @@ bool visited[N];
 int level[N];
 int parent[N];
 //T.C : O(n+m)
+//time complexity: O(n+m) means O(n)
 void bfs(int s){
     queue<int> q;
     q.push(s);

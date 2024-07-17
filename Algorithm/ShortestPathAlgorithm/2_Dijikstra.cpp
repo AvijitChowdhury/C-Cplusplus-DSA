@@ -19,6 +19,7 @@ const int N = 1e3+5;
 vector<pii>adj[N];
 vector<bool>visited(N);
 vector<int>dist(N,INT_MAX);
+//Time Complexity: O(ElogV) means O(nlogn)
 void dijikstra(int source){
     priority_queue<pii,vector<pii>,greater<pii>>pq;
    //vector<int>dist(N,INT_MAX);
