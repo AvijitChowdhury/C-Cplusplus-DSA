@@ -12,6 +12,14 @@ INput:
 4 6 -1
 5 7 3
 4 7 3
+Output:
+Distance of 1 :0
+Distance of 2 :1
+Distance of 3 :3
+Distance of 4 :5
+Distance of 5 :0
+Distance of 6 :4
+Distance of 7 :3
 */
 #include<bits/stdc++.h>
 using namespace std;

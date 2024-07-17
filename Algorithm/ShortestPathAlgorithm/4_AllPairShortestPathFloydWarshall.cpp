@@ -1,4 +1,5 @@
 /*
+Input: 
 5
 7
 1 2 2
@@ -7,7 +8,15 @@
 2 4 6
 2 5 3
 3 4 4
-5 4 9*/
+5 4 9
+
+Output:
+0 2 3 7 5 
+x 0 1 5 3 
+x x 0 4 x 
+x x x 0 x 
+x x x 9 0
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
