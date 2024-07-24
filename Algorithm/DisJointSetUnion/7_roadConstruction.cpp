@@ -40,55 +40,54 @@ void dsu_set(int n)
     }
 }
 
-
-
-int dsu_find(int n){
-    if(parent[n]==-1){
+int dsu_find(int n)
+{
+    if (parent[n] == -1)
+    {
         return n;
     }
     return dsu_find(parent[n]);
 }
-int mx=0;
-void dsu_union(int u,int v){
+int mx = 0;
+void dsu_union(int u, int v)
+{
     int leaderA = dsu_find(u);
     int leaderB = dsu_find(v);
-    if(leaderA!=leaderB){
-        if(ParentSize[leaderA]<ParentSize[leaderB]){
+    if (leaderA != leaderB)
+    {
+        if (ParentSize[leaderA] < ParentSize[leaderB])
+        {
             parent[leaderA] = leaderB;
-            ParentSize[leaderB]+=ParentSize[leaderA];
+            ParentSize[leaderB] += ParentSize[leaderA];
             mx = max(mx, ParentSize[leaderB]);
-        }else{
+        }
+        else
+        {
             parent[leaderB] = leaderA;
-            ParentSize[leaderA]+=ParentSize[leaderB];
+            ParentSize[leaderA] += ParentSize[leaderB];
             mx = max(mx, ParentSize[leaderA]);
         }
-        
     }
 }
-
 
 int32_t main()
 {
     int n, e;
     cin >> n >> e;
     dsu_set(n);
-    int components=n;
+    int components = n;
     while (e--)
     {
         int u, v;
         cin >> u >> v;
-        int leaderA= dsu_find(u);
+        int leaderA = dsu_find(u);
         int leaderB = dsu_find(v);
-        if(leaderA!=leaderB){
+        if (leaderA != leaderB)
+        {
             dsu_union(u, v);
             components--;
         }
-        
-        
-        cout<<components<<" "<<mx<<endl;
-        
+
+        cout << components << " " << mx << endl;
     }
-   
-    
-    
 }
