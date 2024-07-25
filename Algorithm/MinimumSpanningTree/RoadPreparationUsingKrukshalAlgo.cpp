@@ -104,6 +104,10 @@ int32_t main(){
     }
     sort(edges.begin(),edges.end(),comp);
     kruksalAlgo(edges,parent);
+    if(mst.size()!=n-1){
+        cout<<"IMPOSSIBLE"<<endl;
+        return 0;
+    }
     
     cout<<mincost<<endl;
 }
