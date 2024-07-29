@@ -1,0 +1,1 @@
+{"name":"Local: 11_W_ReachValue","url":"f:\\Phitron\\Algorithm\\DynamicProgramming\\11_W_ReachValue.cpp","tests":[{"id":1722182033579,"input":"5\n1\n2\n10\n25\n200","output":"YES\nNO\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\DynamicProgramming\\11_W_ReachValue.cpp","group":"local","local":true}

@@ -122,7 +122,7 @@ int frog(int n)
     for(int i=3;i<=n;i++){
         int choice1=dp[i-1]+abs(a[i-1]-a[i]);
         int choice2=dp[i-2]+abs(a[i-2]-a[i]);
-        dp[i]= min(choice1,choice2);
+        dp[i]= min(choice1,choice2);//dp state
     }
     return dp[n];
 }

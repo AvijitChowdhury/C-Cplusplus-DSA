@@ -1,0 +1,1 @@
+{"name":"Local: 8_KnapsackBottomUp","url":"f:\\Phitron\\Algorithm\\DynamicProgramming\\8_KnapsackBottomUp.cpp","tests":[{"id":1722147162888,"input":"4\n1 5 3 2\n5 2 4 3\n7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\DynamicProgramming\\8_KnapsackBottomUp.cpp","group":"local","local":true}

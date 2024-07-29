@@ -1,0 +1,1 @@
+{"name":"Local: 12_X_MaximumSumPath","url":"f:\\Phitron\\Algorithm\\DynamicProgramming\\12_X_MaximumSumPath.cpp","tests":[{"id":1722182854732,"input":"3 3\n5 2 4\n1 3 5\n9 2 7","output":"24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\DynamicProgramming\\12_X_MaximumSumPath.cpp","group":"local","local":true}
