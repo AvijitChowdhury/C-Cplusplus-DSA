@@ -1,0 +1,1 @@
+{"name":"Local: MakeIt","url":"f:\\Phitron\\Algorithm\\DynamicProgramming\\Assignment04\\MakeIt.cpp","tests":[{"id":1722347942156,"input":"5\n1\n3\n5\n15\n16","output":"YES\nNO\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\DynamicProgramming\\Assignment04\\MakeIt.cpp","group":"local","local":true}
