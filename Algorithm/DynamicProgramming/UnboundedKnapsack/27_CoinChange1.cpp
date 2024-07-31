@@ -1,7 +1,14 @@
+/*
+maximum coin you can take and make sum of given k
+3
+1 2 3
+5
+Output: 5
+5 ways*/
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long int
-int dp[1001][1001]={-1};
+int dp[1001][1001];
 //recursive approach
 int CoinChangeTopDown(int n,int s,int w[]){
     if(n==0){
@@ -54,6 +61,7 @@ int32_t main(){
     }
     int s;
     cin >> s;
-    cout<<coinChange(n,s,w);
+    memset(dp,-1,sizeof(dp));
+    cout<<CoinChangeTopDown(n,s,w);
     return 0;
 }

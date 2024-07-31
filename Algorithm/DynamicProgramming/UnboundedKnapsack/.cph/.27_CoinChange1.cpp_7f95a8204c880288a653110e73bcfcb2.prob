@@ -1,0 +1,1 @@
+{"name":"Local: 27_CoinChange1","url":"f:\\Phitron\\Algorithm\\DynamicProgramming\\UnboundedKnapsack\\27_CoinChange1.cpp","tests":[{"id":1722413490829,"input":"3\n1 2 3\n5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\DynamicProgramming\\UnboundedKnapsack\\27_CoinChange1.cpp","group":"local","local":true}
