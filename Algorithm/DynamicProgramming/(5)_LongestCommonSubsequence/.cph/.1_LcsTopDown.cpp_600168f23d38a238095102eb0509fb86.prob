@@ -1,0 +1,1 @@
+{"name":"Local: 1_LcsTopDown","url":"f:\\Phitron\\Algorithm\\DynamicProgramming\\(5)_LongestCommonSubsequence\\1_LcsTopDown.cpp","tests":[{"id":1722493544940,"input":"abdrh\ngabr","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\Algorithm\\DynamicProgramming\\(5)_LongestCommonSubsequence\\1_LcsTopDown.cpp","group":"local","local":true}
