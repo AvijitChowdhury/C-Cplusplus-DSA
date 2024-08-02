@@ -1,0 +1,1 @@
+{"name":"Local: ConvertArrayToBST","url":"f:\\Phitron\\DSA\\Module21_BST\\ConvertArrayToBST.cpp","tests":[{"id":1719724965743,"input":"6\n20 10 30 15 25 35 ","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DSA\\Module21_BST\\ConvertArrayToBST.cpp","group":"local","local":true}
