@@ -1,5 +1,5 @@
 from typing import Any, List, Dict, Tuple
-
+#Star Cinema Class
 class Star_Cinema:
     def __init__(self) -> None:
         self.hall_list: List[Hall] = []
@@ -7,7 +7,7 @@ class Star_Cinema:
     def entry_hall(self, hall_no: int, rows: int, cols: int):
         self.hall_list.append(Hall(rows, cols, hall_no))
 
-
+#Hall Class
 class Hall:
     def __init__(self, rows: int, cols: int, hall_no: int) -> None:
         self.__seats: Dict[str, List[List[bool]]] = {}
@@ -81,7 +81,7 @@ def book_tickets(id: str, seats: List[Tuple[int, int]]):
         print("----------------Show not found in hall----------")
 
 
-# Example Usage
+# Example Usage for the system
 cinema = Star_Cinema()
 cinema.entry_hall(1, 5, 5)
 cinema.hall_list[0].entry_show('S1', 'Kalki', '10:00 AM')
