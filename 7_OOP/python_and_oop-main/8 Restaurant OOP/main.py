@@ -66,7 +66,7 @@ def main():
 
     restaurant.pay_salary(chef)
     print('after salary', restaurant.revenue, restaurant.balance, restaurant.expense)
-
+    
 
 
 # call the main 
