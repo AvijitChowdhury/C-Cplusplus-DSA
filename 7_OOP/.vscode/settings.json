@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./9_SchoolManagement/2_"
+    ]
+}
